@@ -1,0 +1,83 @@
+/* 
+JavaScript Project
+
+Author : Dipta Saha
+Email : diptasaha.lpu.cse@gmail.com
+Github : https://github.com/diptasahacse
+Website : https://diptasaha.com/
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height: 100vh;
+
+    position: relative;
+}
+#container{
+    padding: 50px 70px;
+    background-color: rgb(168, 168, 168);
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    border: 2px solid rgb(158, 100, 100);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+    
+   
+}
+#buttonarea{
+    text-align: center;
+}
+
+p{
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: white;
+}
+.btn-grad {background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%)}
+.btn-grad {
+   margin: 15px;
+   padding: 10px 20px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px rgb(219, 213, 213);
+   border-radius: 10px;
+   border: none;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; 
+   cursor: pointer;
+ }
+.colorcode{
+    margin-left: 22px;
+    padding: 10px;
+    letter-spacing: 2px;
+    position: relative;
+    font-size: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    
+}
+.colorcode::before{
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content: '';
+    border-radius: 50%;
+    left: -25px;
+    top: 10px;
+
+}
+
+
+
