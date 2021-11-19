@@ -18,21 +18,26 @@ body{
     position: relative;
 }
 #container{
-    padding: 50px 70px;
-    background-color: rgb(168, 168, 168);
+    padding: 3px;
+    overflow: hidden;
+    background: linear-gradient(to right, red, purple);
     margin: 0 auto;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    border-radius: 20px;
-    border: 2px solid rgb(158, 100, 100);
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
     
    
 }
-#buttonarea{
+.body-container{
+    background-color: #7c7c7c8c;
     text-align: center;
+
+}
+#buttonarea{
+    padding: 30px;
+    
 }
 
 p{
@@ -40,7 +45,7 @@ p{
     margin-bottom: 15px;
     color: white;
 }
-.btn-grad {background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%)}
+.btn-grad {background-image: linear-gradient(to right, #B00243 0%, #A000CD 51%, #FC005F 100%)}
 .btn-grad {
    margin: 15px;
    padding: 10px 20px;
@@ -48,9 +53,10 @@ p{
    transition: 0.5s;
    background-size: 200% auto;
    color: white;            
-   box-shadow: 0 0 20px rgb(219, 213, 213);
+   box-shadow: 0 0 20px rgb(188, 107, 107);
    border-radius: 10px;
    border: none;
+   font-size: 12px;
  }
 
  .btn-grad:hover {
@@ -65,6 +71,7 @@ p{
     font-size: 20px;
     border: 2px solid;
     border-radius: 10px;
+    display: inline-block;
     
 }
 .colorcode::before{
@@ -78,6 +85,10 @@ p{
     top: 10px;
 
 }
+/* Responsive */
 
+@media only screen and (max-width: 940px) {
+    
+  }
 
 
